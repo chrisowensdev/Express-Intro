@@ -58,7 +58,7 @@ const monsterController = (req, res) => {
             if (req.params.name === monster.slug) {
                 snippet = `<h1>BOOO!!! It is ${monster.name}</h1>
                     <p> I am ${monster.name}</p>
-                    <p> Species: ${monster.species}`;
+                    <p> Species: ${monster.species}</p>`;
             }
         })
     }
